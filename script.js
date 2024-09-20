@@ -14,6 +14,6 @@ playButton.addEventListener('click', function() {
 
 // Update button text when sound ends
 sound.addEventListener('ended', function() {
-    playButton.textContent = 'Tap Here to Play Again'; // Reset button text
+    playButton.textContent = 'Tap Here'; // Reset button text
 });
 
