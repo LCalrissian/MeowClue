@@ -8,7 +8,7 @@ playButton.addEventListener('click', function() {
         playButton.textContent = 'Listen carefully...'; // Change button text
     } else {
         sound.pause(); // Pause if clicked again
-        playButton.textContent = 'Paused'; // Change button text back
+        playButton.textContent = 'Tap Here'; // Change button text back
     }
 });
 
